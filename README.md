@@ -12,6 +12,6 @@ I am a passionate CSE student with a keen interest in software development, algo
 ## Contact Me
 - Email: jonna.lokesh1.com
 - LinkedIn: [Visit](https://www.linkedin.com/in/j-lokesh)
-- Portfolio Website: [Visit](jlokesh.netlify.app)
+- Portfolio Website: [Visit](https://jlokesh.netlify.app)
 
 Feel free to explore my projects and assignments. Thank you for visiting my portfolio!
