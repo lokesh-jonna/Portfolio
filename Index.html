@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="modifiedstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Lokesh J</title>
+    <script>
+        // JavaScript for mobile menu toggle
+document.addEventListener('DOMContentLoaded', function () {
+    const menuBtn = document.querySelector('.menu-btn');
+    const navMenu = document.querySelector('nav ul');
+
+    menuBtn.addEventListener('click', () => {
+        navMenu.classList.toggle('show');
+    });
+});
+
+        </script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img class="logo" src="jonna_logo.png" alt="logo">
+            <!-- <i class="fa fa-bars menu-btn"></i> -->
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Connect</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Software <span class="dev">Developer</span></p>
+            <h1>Hi, I'm <span class="lok">Lokesh</span> Jonna</h1>
+        </div>
+    </div>
+    </div>
+    <!-- -----------------about----------- -->
+    <div id="about">
+        <h1 class="sub-title">ABOUT</h1>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="aboutme.jpg" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <p> Enthusiastic person with a passion for crafting dynamic websites and innovative projects using Python, machine learning, front-end tools, and APIs. 💡 With a knack for problem-solving and a flair for creativity, I excel in coding and thrive on challenges. 🌟 Actively engaged on LinkedIn, Leetcode and other tech platforms, I'm dedicated to pushing boundaries and leaving a mark in the world of technology.</p>
+                    <div>
+                            <div class="skills">What I Know !</div>
+                        <div class="tab-contents active-tab" id="skills">
+                                <img src="c.png" alt="">
+                                <img src="c++.png" alt="">
+                                <img src="java.png" alt="">
+                                <img src="python.png" alt="">
+                                <img src="html.png" alt="">
+                                <img src="css3.ico" alt="">
+                                <img src="jsw.png" alt="">
+                                <img src="datavi.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services" data-aos="fade-up"
+     data-aos-anchor-placement="top-center">
+        <div class="container" >
+            <h1 class="sub-title">SERVICES</h1>
+            <div class="services-list">
+                <div data-aos="fade-right">
+                    <img src="webdevelop.png">
+                    <h2>Programming Tutorials</h2>
+                    <p>One to one explanation of code</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div data-aos="flip-up">
+                    <img src="webdesign.png" >
+                    <h2>Website Designer</h2>
+                    <p>Make people smile by design Website.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div data-aos="fade-left">
+                    <img src="digital.png" >
+                    <h2>Digital Marketing</h2>
+                    <p>Be where the world is going.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+     </div>
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">PROJECTS</h1>
+            <p>You can see some of my recent work</p>
+            <div class="work-list" >
+                <div class="work" data-aos="zoom-in">
+                    <img src="cinesearch.png" >
+                    <div class="layer">
+                        <h3>CineSearch</h3>
+                        <p>Created an intuitive application for movie enthusiasts to explore films and delve into plot details, enhancing the user's cinematic experience.</p>
+                        <a href="https://moviesight.netlify.app/"  target="_blank"><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-in">
+                    <img src="weather.png" >
+                    <div class="layer">
+                        <h3>Weather Forecast</h3>
+                        <p>An application providing real-time weather information, including temperature, humidity, wind speed, and forecasts, offering users essential data for planning activities and staying informed about current weather conditions.</p>
+                        <a href="https://yourclimate.netlify.app/"  target="_blank"><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-in">
+                    <img src="student.png" >
+                    <div class="layer">
+                        <h3>Student Performance Analyzer</h3>
+                        <p>Analyzed academic performance data to derive actionable insights, enhancing educational strategies.</p>
+                        <a target="_blank"  href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-in">
+                    <img src="roam.png" >
+                    <div class="layer">
+                        <h3>Landing page</h3>
+                        <p>Discover your next destination with ease on our travel website landing page. Plan, book, and explore the world hassle-free.</p>
+                        <a href="https://roamtravel.netlify.app/"  target="_blank"><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work" data-aos="zoom-in">
+                    <img src="object.jpg" >
+                    <div class="layer">
+                        <h3>Detection of Objects</h3>
+                        <p>Implemented object detection using OpenCV and YOLO for dynamic labeling in videos. Additionally, developed a solution for angle detection between flat objects</p>
+                        <a target="_blank"  href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    <div id="contact">
+        <h1 class="sub-title">CONTACT</h1>
+        <div class="container">
+            <div class="row">
+                <div class="contact-right" data-aos="fade-up-left">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="Email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-left" data-aos="fade-up-right">
+                    <div class="contact-info">
+                        <a href="mailto:jonna.lokesh1@gmail.com" class="mail">jonna.lokesh1@gmail.com</a><br>
+                        <p><i class="fa fa-phone"></i>+91-7569779927</p>
+                    </div>
+                    <div class="social-icons" data-aos="zoom-in">
+                        <a href="https://www.linkedin.com/in/j-lokesh/" class="fa fa-linkedin"></a>
+                        <a href="https://github.com/lokesh-jonna" class="fa fa-github"></a>
+                        <a href="https://instagram.com/lo_k_sh_" class="fa fa-instagram"></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1odozdXW_YmcJy49m9Zg6kaVK7B3NQUJp/view?usp=sharing" class="fa fa-file"></a>
+                    <a href="https://drive.google.com/file/d/1odozdXW_YmcJy49m9Zg6kaVK7B3NQUJp/view?usp=sharing" class="res-btn">Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div class="copyright">
+            <p>Copyright &copy; 2024 Website Developed By <span style="color: rgba(178, 198, 123, 0.833); font-weight: 900;">Lokesh J</span></p>
+        </div>
+      </div>
+</body>
+</html>
