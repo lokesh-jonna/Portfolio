@@ -10,7 +10,7 @@ I am a passionate CSE student with a keen interest in software development, algo
 - CSS
 - JS
 ## Contact Me
-- Email: jonna.lokesh1.com
+- Email: [Visit](jonna.lokesh1@gmail.com)
 - LinkedIn: [Visit](https://www.linkedin.com/in/j-lokesh)
 - Portfolio Website: [Visit](https://jlokesh.netlify.app)
 
