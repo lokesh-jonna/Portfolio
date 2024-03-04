@@ -1,6 +1,6 @@
 # Portfolio
 
-Welcome to my portfolio repository! This repository showcases my projects, assignments, and achievements as a Computer Science Engineering.
+Welcome to my portfolio repository! This repository showcases my projects, assignments, and achievements.
 
 ## About Me
 I am a passionate developer with a keen interest in software development, algorithms, and problem-solving. I am constantly learning and exploring new technologies to enhance my skills.
@@ -12,6 +12,8 @@ I am a passionate developer with a keen interest in software development, algori
 ## Contact Me
 - Email: jonna.lokesh1@gmail.com
 - LinkedIn: [Visit](https://www.linkedin.com/in/j-lokesh)
-- Portfolio Website: [Visit](https://jlokesh.netlify.app)
+  
+## Live Demo 
+[Visit](https://jlokesh.netlify.app)
 
-Feel free to explore my projects and assignments. Thank you for visiting my portfolio!
+Feel free to explore my projects and assignments. Thank you for visiting!
